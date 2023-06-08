@@ -1,0 +1,205 @@
+.formacao{
+    background-image: url("../imagens/ckt.png");
+    background-size:contain;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.formacao_academica{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formacao_titulo{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    margin:50px 0 30px 0;
+    color: rgb(240, 193, 255);
+    width: 80vw;
+    border-bottom: 3px solid rgb(155, 69, 215);
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px rgba(195, 0, 255,1);
+}
+
+.formacao_titulo_p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color:  rgba(19, 21, 20);
+    width: 60vw;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    border-radius: 20px 20px 70px 20px;
+    box-shadow: 10px 10px 10px rgb(230 72 255 / 50%), -10px -10px 10px rgb(230 72 255 / 50%);
+
+}
+
+.formacao_titulo_p1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    margin:10px 0 20px 0;
+    color: rgb(161 161 255);
+    width: 57vw;
+    border-bottom: 1px solid rgb(161 161 255);
+}
+
+.formacao_titulo_p2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    margin:0px 0 30px 0;
+    color: rgb(204 204 213);
+    width: 54vw;
+    border-bottom: 1px solid rgb(204 204 213);
+}
+
+
+.formacao_descricao_imagem{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    height: 250px;
+    background-color: rgba(19, 21, 20,1);
+    border: 1px solid rgba(0, 0, 0,0.1);
+    border-radius: 20px 20px 70px 20px;
+    box-shadow: 10px 10px 10px rgb(230 72 255 / 50%), -10px -10px 10px rgb(230 72 255 / 50%);
+
+}
+.formacao_descricao{
+margin: 0 1rem;
+}
+.formacao_descricao p{
+    width: 55vw;
+    padding: 20px 20px 10px 20px;
+    font-size: 1.2rem;
+    margin:30px 0 30px 0;
+    color: rgb(21 220 248); 
+    border-bottom: 1px solid rgb(204, 204, 213);
+    font-weight: bolder;
+
+}
+
+.formacao_descricao li{
+    width: 35vw;
+    padding: 0px 20px 10px 20px;
+    font-size: 1.2rem;
+    margin:0px 0 30px 0;
+    color: rgb(231 0 254);
+    border-bottom: 1px solid rgb(204, 204, 213);
+
+}
+
+.caixa_formacao_imagem{
+    position: relative;
+    top:-139px;
+    left: 22vw;
+}
+
+.formacao_imagem{
+
+    background: url("../imagens/livros.png") center/ cover no-repeat;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+@media screen and (max-width: 980px) and (min-width: 481px){
+    .formacao_titulo{
+        width: 95vw;
+    }
+    .formacao_titulo_p,.formacao_titulo_p1,.formacao_titulo_p2,.formacao_descricao_imagem {
+        width: 95%;
+        line-height: 2rem;
+    }
+    .formacao_descricao p{
+        width: 82vw;
+        padding: 0 0 10px 0;
+    }
+    .formacao_descricao li{
+        width: 70vw;
+        font-size: 1rem;
+        padding: 0;
+
+    }
+    .formacao_imagem{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 480px){
+
+    .formacao_titulo{
+        padding-bottom: 10px;
+        font-size: 1.7rem;
+        margin:40px 0 30px 0;
+        width: 95vw;
+    }
+    .formacao_titulo_p{
+
+        padding-top: 20px;
+        width: 95vw;
+        margin-bottom: 30px;
+    }
+    .formacao_titulo_p1{
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+        margin:10px 0 20px 0;
+        width: 95vw;
+        line-height: 1.5rem;
+        border-bottom: 2px solid rgb(5, 25, 199);
+    }
+    
+    .formacao_titulo_p2{
+        padding-bottom: 10px;
+        font-size: .9rem;
+        margin:0px 0 30px 0;
+        width: 85vw;
+        line-height: 1.5rem;
+        border-bottom: 2px solid rgb(5, 4, 98);
+    }
+    .formacao_descricao_imagem{
+        width: 95vw;
+        height: 250px;
+        border: 2px solid rgba(0, 0, 0,0.1);
+    
+    }
+    .formacao_imagem{
+        display: none;
+    }
+    .formacao_descricao p{
+        width: 80vw;
+        padding: 20px 20px 10px 20px;
+        font-size: 1.1rem;
+        margin:30px 0 30px 0;
+
+    
+    }
+    .formacao_descricao_imagem{
+        width: 90vw;
+        height: 250px;
+        padding: 0 10px;
+    }
+    .formacao_descricao li{
+        width: 80vw;
+        padding: 0px 20px 10px 20px;
+        font-size: .9rem;
+        margin:0px 0 30px 0;
+        line-height: 1.5rem;
+    
+    }
+
+}

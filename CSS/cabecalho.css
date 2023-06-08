@@ -1,0 +1,177 @@
+.cabecalho{
+    background: url("../imagens/Banner.png") center/ cover no-repeat;
+    width: 100vw;
+    height: 700px;
+    padding-bottom: 50px;
+}
+
+.cabecalho_itens{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.cabecalho_logo{
+    margin-left: 2vw;
+}
+
+.cabecalho_nav{
+    display: flex;
+   
+}
+
+.cabecalho_link{
+    text-decoration: none;
+    color: #00ffec;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5rem; 
+    width: 110px;
+    transition: .3s;
+}
+
+.cabecalho_link:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: rgb(199, 140, 255);
+    border-color: blueviolet;
+}
+
+.caixagrande{
+        width: 140px;
+}
+ 
+.cabecalho_apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 430px;
+    margin-left: 63%;
+    text-shadow: 1px 1px 20px white;
+
+}
+
+.cabecalho_apresentacao_titulo{
+    font-size: 2rem;
+    width: 300px;
+    height: 40px;   
+    color: #00ffe1;
+    border-bottom: 2px solid #00ffe1;
+
+}
+
+
+
+@media screen and (max-width: 945px) and (min-width: 760px){
+    .cabecalho{
+        height: 60vh;
+    }
+    .cabecalho_itens{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .caixa_cabecalho_nav{
+        position: absolute;
+        left: 75vw;
+        top: -200px;
+    }
+    .cabecalho_nav{
+        flex-direction: column;
+        align-items: center;
+        padding-top:250px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+    .cabecalho_link{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgb(104, 119, 122);
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 759px) and (min-width: 481px){
+    .cabecalho{
+        height: 50vh;
+    }
+    .cabecalho_itens{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .cabecalho_nav{
+        flex-direction: column;
+        align-items: center;
+        padding-top:250px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 20px;
+    }
+    .cabecalho_link{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgb(104, 119, 122);
+        width: 150px;
+    }
+    .cabecalho_logo{
+        margin-left: 2vw;
+        margin-top: -20px;
+        width: 170px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .cabecalho{
+        height: 100vh;
+    }
+    .cabecalho{
+
+        background: url("../imagens/Banner2.png") center/ cover no-repeat;
+    }
+
+    .cabecalho_logo{
+        margin: 40px 0;
+        width: 90%;
+    }
+
+    .cabecalho_itens{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .cabecalho_nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: 40vh;
+    }
+
+    .cabecalho_nav a:first-child{
+        border-top: 2px solid rgb(122, 122, 104);
+        padding-top: 24px; 
+    }
+
+
+
+    .cabecalho_link{
+        margin-bottom: 1rem;
+        border-bottom: 2px solid rgb(104, 119, 122);
+        width: 70vw;
+        height: 35px;
+        margin-right: 0;
+   
+    }
+
+}

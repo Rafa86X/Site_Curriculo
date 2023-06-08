@@ -1,0 +1,27 @@
+.rodape{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-image: url("../imagens/ckt.png");
+    background-size:contain;
+    margin: 0;
+    border: none;
+}
+.rodape_logo{
+    margin: 20px 0 10px 0;
+    width: 170px;
+}
+
+.rodape_atribuicao{
+    text-decoration: none;
+    color: cornflowerblue;
+    text-align: center;
+    margin: 5px;
+    line-height: 1.5rem;
+    font-size: .8rem;
+}
+
+

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/cabecalho.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/corpo.css">
+    <link rel="stylesheet" href="./CSS/formacao.css">
+    <link rel="stylesheet" href="./CSS/cursos.css">
+    <link rel="stylesheet" href="./CSS/circulodeFogo.css">
+    <link rel="stylesheet" href="./CSS/portifolio.css">
+    <link rel="stylesheet" href="./CSS/sobre.css">
+    <link rel="stylesheet" href="./CSS/contato.css">
+    <link rel="stylesheet" href="./CSS/rodape.css">
+    <title>RafaDevWeb</title>
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <section class="cabecalho_itens">
+            <img class="cabecalho_logo" src="./imagens/logo.png" alt="logo do desenvolvedor">
+            <div class="caixa_cabecalho_nav">
+                <nav class="cabecalho_nav">
+                    <a class="cabecalho_link" href="#formacao">Formação acadêmica</a>
+                    <a class="cabecalho_link caixagrande" href="#cursos">Cursos de especialização</a>
+                    <a class="cabecalho_link" href="#portifolio">Portifolio</a>
+                    <a class="cabecalho_link" href="#sobre">Um pouco sobre mim</a>
+                    <a class="cabecalho_link" href="#contato">Contato</a>        
+                </nav>
+            </div>
+
+        </section>
+        <section class="cabecalho_animacao">
+            <section class="caixaCirculos_caixa">
+                <div class="caixaCirculos">
+                    <div class="circle"> 
+                        <div class="caixatrof"></div>
+                    </div>
+                    <div class="barrinha"></div>
+                    <svg>
+                        <filter id="wavy">
+                            <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
+                            <animate attributeName="baseFrequency" dur="30s" values="0.05;0.00;0.02" repeatCount="indefinite">
+                            </feTurbulence>
+                            <feDisplacementMap in="SourceGraphic" scale="10">
+                        </filter>
+                    </svg>
+                </div>           
+            </section> 
+            <div class="cabecalho_animacao_img imagemA"></div>
+            <div class="cabecalho_animacao_img imagemB"></div>
+        </section>
+    </header>
+    <main>
+        <section class="formacao" id="formacao">
+            <div class="formacao_academica">
+                <div class="formacao_titulo">Formação Acadêmica</div>
+                <div class="formacao_titulo_p">
+                    <p class="formacao_titulo_p1" >Tecnólogo em Analise e Desenvolvimento de Sistemas</p>
+                    <p class="formacao_titulo_p2" >Instituição Unip - Universidade Paulista, conclusão em 2023</p>
+                </div>
+                <div class="formacao_descricao_imagem">
+                    <div class="formacao_descricao"> 
+                        <p>Pós-Graduações de interesse:</p>
+                        <ul>
+                            <li>Ciência de Dados &#9997</li>
+                            <li>Gestão de Projetos em T.I. &#9997</li>
+                        </ul>                       
+                    </div>                                      
+                </div>
+            </div>
+            <div class="caixa_formacao_imagem">
+                <div class="formacao_imagem"></div>
+            </div>
+        </section>
+        <section class="cursos" id="cursos">
+            <div class="cursos_titulo">Cursos de Especialização</div>
+             <div class="cursos_curso">
+                <div class="cursos_curso_titulo">-> ALURA Cursos de Tecnologia <-</div>
+                <div class="cursos_subcursos">
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem"><img src="./imagens/html.png" alt="Minha Figura"></div>
+                        
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/css.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/js.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/sql.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/php.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/python.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/java.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/C2.png" alt="Minha Figura"></div>
+                    </div>
+                    <div class="cursos_subcursos_detalhes">
+                        <div class="cursos_subcursos__imagem "><img src="./imagens/c1.png" alt="Minha Figura"></div>
+                    </div>
+            </div>         
+        </section>
+        <section class="portifolilo" id="portifolio">
+            <div class="portifolio_tiltulo">Portifólio</div>
+                <div class="portifolio_projetos">
+                    <div class="portifolio_subcursos">  
+                        <a href="https://play.google.com/store/apps/details?id=com.segnujgames.alendadeivad&hl=pt_BR" class="portifolio_subcursos_cursos">
+                            <img class="portifolio_subcursos_img" src="./imagens/jogo.png" alt="Logotipo, explica que esse projeto se trata de um Jogo de celular">
+                            <div class="portifolio_subcursos_titulo">A Lenda de Ivad</div>
+                            <div class="portifolio_subcursos_descricao">
+                                <p>
+                                    O Jogo foi desenvolvido em 2018, e foi o grande motor de incentivo a minha entrada na área de T.I., 
+                                    ele é baseado numa historia fictica onde um heroizinho (Meu filho Davi), enfrenta varias aventuras
+                                    para libertar sua familia de um vilao muito poderoso. O jogo é totalmente gratuito e sem propagandas,
+                                    e esta disponivel na PlayStore.
+                                </p>
+                            </div>
+                        </a>   
+                        <div class="portifolio_subcursos_cursos">
+                            <img class="portifolio_subcursos_img" src="./imagens/app.png" alt="Logotipo, explica que esse projeto se trata de um aplicativo">
+                            <div class="portifolio_subcursos_titulo">Mini Projetos JavaScript</div>
+                            <div class="portifolio_subcursos_links">
+                                <a href="./sites/Site Alenda de Ivad/index.html">&#9788 => Site A lenda de Ivad </a>
+                                <a href="./sites/BateriaJava/index.html">&#9788 => Bateria musical </a>
+                                <a href="./sites/Calculadora/index.html">&#9788 => Calculadora simples</a>
+                                <a href="./sites/CalculadoraIMC/index.html">&#9788 => Calculadira de IMC</a>
+                                <a href="./sites/Carrocel/index.html">&#9788 => Carrocel genérico de imagens</a>
+                                <a href="./sites/CRUD/index.html">&#9788 => CRUD básico sem conexão com BD</a>
+                                <a href="./sites/FelizTristeBrabo/index.html">&#9788 => Feliz e Brabo</a>
+                                <a href="./sites/ListaTarefas/index.html">&#9788 => Lista de tarefas</a>
+                                <a href="./sites/Sinaleira/index.html">&#9788 => Sinaleira</a>
+                                
+                            </div>
+                        </div>
+                        <a href="./sites/Site ByteBank/Telas/login.html" class="portifolio_subcursos_cursos">
+                            <img class="portifolio_subcursos_img" src="./imagens/site.png" alt="Logotipo, explica que esse projeto se trata de um Jogo de celular">
+                            <div class="portifolio_subcursos_titulo">Site ByteBank</div>
+                            <div class="portifolio_subcursos_descricao">
+                                <p>
+                                    Site dinâmico que simula operações bancarias.
+                                   
+                                </p>
+                            </div>
+                        </a>  
+                        <a href="https://github.com/Rafa86X/Escrevendo-JSON-com-Python" class="portifolio_subcursos_cursos">
+                            <img class="portifolio_subcursos_img" src="./imagens/app.png" alt="Logotipo, explica que esse projeto se trata de um Jogo de celular">
+                            <div class="portifolio_subcursos_titulo">Apps em Python</div>
+                            <div class="portifolio_subcursos_descricao">
+                                <p>
+                                    Apps simples desenvolvidos em Python.
+                                   
+                                </p>
+                            </div>
+                        </a> 
+                    </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="sobre_titulo">Um Pouco sobre mim</div>
+            <div class="sobre_descricao">
+                <img class="sobre_descricao_imagem" src="./imagens/fotoimg.png" alt="Foto do desenvolvedor">
+                <div class="sobre_descricao_texto">
+                    Olá eu sou Goku, não pera, mentira, kkk meu nome é Rafael Junges sou apaixonado por tecnologia e aprender. Programação e desenvolvimento de Sistemas
+                    são robes e trabalho ao mesmo tempo. Adoro esportes ao ar livre, como basquete, futebol e vôlei, se for na praia melhor ainda, kkkk. 
+                    Quando não ha outro jeito, pedalar e caminhar é oque eu faço para remediar o corpo e a alma.
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contato_titulo">Contato</div>
+            <div class="contato_descricao">
+                <div class="contato_descricao_item">
+                    <p class="item_tipo">Email:</p>
+                    <p class="item_texto">rafadevweb@gmail.com</p>                   
+                </div>
+                <div class="contato_descricao_item">
+                        <p class="item_tipo">GitHub:</p>
+                        <p class="item_texto">rafadevweb@gmail.com</p>                   
+                </div>
+                <div class="contato_descricao_item">
+                        <p class="item_tipo">LinkeDin:</p>
+                        <p class="item_texto">rafadevweb@gmail.com</p>                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img class="rodape_logo" src="./imagens/logo.png" alt="logo do desenvolvedor">
+        <a class="rodape_atribuicao" href="https://br.freepik.com/fotos-vetores-gratis/ornamento">
+            <p>- Banner principal do site -</p>
+            <p>Ornamento vetor criado por rawpixel.com - br.freepik.com</p>
+        </a>
+    </footer>   
+</body>
+</html>
