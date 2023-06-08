@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-color: black;
+}
+
+.tela{
+    background-image: url("./Imagens/fundo2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:110%;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid purple;
+    position: relative;
+}
+
+.infoTela{
+    padding: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+}
+.placar{
+   
+    display: flex;  
+    color: aliceblue;
+}
+
+.itemPlacar{
+    margin-left: 5px;
+}
+
+.painelIni{
+    position: absolute;
+    background-image: url("./Imagens/painelInicial.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 600px;
+    height: 365px;
+    bottom: 130px;
+    left: 115px;
+}
+
+#porrete{
+    background: url("./Gifs/Porrete.gif");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size:95%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    width: 80px;
+    height: 80px;
+    bottom: 100px;
+    left: 400px;
+}
+
+#heoizinho{
+    background: url("./Gifs/HeroiParado.gif");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size:95%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    width: 130px;
+    height: 120px;
+    bottom: 50px;
+    left: 100px;
+}
+
+
+
+.cortinaFogo{
+    background: url("./Gifs/FogoVerde.gif");
+    background-repeat: no-repeat;
+    background-size:95%;
+    width: 80px;
+    height: 120px;
+}
+
+.blc1{
+    position: absolute;
+    bottom: 5px;
+    left: 635px;
+}
+
+.blc2{
+    position: absolute;
+    bottom: 45px;
+    left: 625px;
+}
+
+.blc3{
+    position: absolute;
+    bottom: 85px;
+    left: 615px;
+}
+.blc4{
+    position: absolute;
+    bottom: 135px;
+    left: 600px;
+}
+.blc5{
+    position: absolute;
+    bottom: 175px;
+    left: 585px;
+}
+
+
+
+.blocoDano{
+    background-image: url("./Gifs/fogoNormal.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position:initial;
+    background-size:60%;
+    width: 100px;
+    height: 100px;
+}
+
+.bl1{
+    position: absolute;
+    bottom: 100px;
+    left: 850px;
+}
+.bl2{
+    position: absolute;
+    bottom: 100px;
+    left: 850px;
+}
+
+.bl3{
+    position: absolute;
+    bottom: 100px;
+    left: 850px;
+}
+
+
+#enimigo{
+    background: url("./Gifs/enimigoParado.gif");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size:95%;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    width: 180px;
+    height: 150px;
+    left: 630px;
+    bottom: 80px;
+
+
+}
